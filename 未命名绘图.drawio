@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T03:26:00.458Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wp7oLzzDiJlqsOlYOypu" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T04:00:05.797Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MOhFR4tASuiHWr6Z9NvS" version="20.2.7" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1038" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -119,8 +119,78 @@
         <mxCell id="p2N06ffcsC0MJF7vxpci-131" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;patch&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0066;" vertex="1" parent="1">
           <mxGeometry x="1372" y="836" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p2N06ffcsC0MJF7vxpci-132" value="&lt;div&gt;&lt;b&gt;const processComponent = (n1, n2, container, anchor, parentComponent, ...) =&amp;gt; {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; if (n1 == null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;// 挂载组件&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;mountComponent(n2, container, anchor, parentComponent, ...)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; else {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // 更新组件&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; updateComponent(n1, n2, parentComponent, optimized)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1100" width="460" height="220" as="geometry" />
+        <mxCell id="p2N06ffcsC0MJF7vxpci-132" value="&lt;div&gt;&lt;b&gt;const &lt;font color=&quot;#cc0066&quot;&gt;processComponent&lt;/font&gt; = (n1, n2, container, anchor, parentComponent, ...) =&amp;gt; {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; if (n1 == null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;// 挂载组件&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&lt;font color=&quot;#cc0066&quot;&gt;mountComponent&lt;/font&gt;(n2, container, anchor, parentComponent, ...)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; else {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; // 更新组件&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#cc0066&quot;&gt;updateComponent&lt;/font&gt;(n1, n2, parentComponent, optimized)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1100" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-133" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#CC0066;jumpSize=4;entryX=0.174;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.124;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p2N06ffcsC0MJF7vxpci-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="990" as="sourcePoint" />
+            <mxPoint x="790.04" y="1100.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-134" value="&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;processComponent&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="759" y="1021" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=4;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.003;exitY=0.573;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p2N06ffcsC0MJF7vxpci-135" target="p2N06ffcsC0MJF7vxpci-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1420" as="sourcePoint" />
+            <mxPoint x="680" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="711" y="1445" />
+              <mxPoint x="690" y="1445" />
+              <mxPoint x="690" y="1460" />
+              <mxPoint x="630" y="1460" />
+              <mxPoint x="630" y="1376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-135" value="&lt;div&gt;&lt;b&gt;const &lt;font color=&quot;#cc0066&quot;&gt;mountComponent&lt;/font&gt; = (initialVNode, container, anchor, parentComponent) =&amp;gt; {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; // 创建组件实例&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; const instance = (initialVNode.component = createComponentInstance(initialVNode, parentComponent, parentSuspense))&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; // 设置组件实例&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#cc0066&quot;&gt;setupComponent(instance)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;// 设置并运行带副作用的渲染函数&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#cc0066&quot;&gt;setupRenderEffect&lt;/font&gt;(instance, initialVNode, container, anchor)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1350" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-136" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#CC0066;jumpSize=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1301" as="sourcePoint" />
+            <mxPoint x="790" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-137" value="&lt;b style=&quot;&quot;&gt;const &lt;font color=&quot;#cc0066&quot;&gt;setupRenderEffect&lt;/font&gt; = (instance, initialVNode, container, anchor, parentSuspense, isSVG, optimized) =&amp;gt; {&lt;br&gt;&lt;br&gt;&amp;nbsp; // 创建响应式的副作用渲染函数&lt;br&gt;&amp;nbsp; instance.update = effect(function componentEffect() {&lt;br&gt;&amp;nbsp; &amp;nbsp; if (!instance.isMounted) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 渲染组件生成子树 vnode&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; const &lt;font color=&quot;#cc0066&quot;&gt;subTree&lt;/font&gt; = (instance.subTree = renderComponentRoot(instance))&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 把子树 vnode 挂载到 container 中&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&quot;#cc0066&quot;&gt;patch(null, subTree, container, anchor, instance, parentSuspense, isSVG)&lt;/font&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 保留渲染生成的子树根 DOM 节点&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; initialVNode.el = subTree.el&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; instance.isMounted = true&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; else {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 更新组件&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;br&gt;&amp;nbsp; }, prodEffectOptions)&lt;br&gt;&lt;br&gt;}&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1110" width="460" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-140" value="&lt;div&gt;&lt;b&gt;const &lt;font color=&quot;#cc0066&quot;&gt;processElement&lt;/font&gt; = (n1, n2, container, anchor, parentComponent, parentSuspense, ...) =&amp;gt; {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; isSVG = isSVG || n2.type === &#39;svg&#39;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; if (n1 == null) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;//挂载元素节点&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&lt;font color=&quot;#cc0066&quot;&gt; mountElement&lt;/font&gt;(n2, container, anchor, parentComponent, parentSuspense, isSVG, optimized)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; else {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;//更新元素节点&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#cc0066&quot;&gt;patchElement&lt;/font&gt;(n1, n2, parentComponent, parentSuspense, isSVG, optimized)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1100" width="570" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-141" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#CC0066;jumpSize=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="971" as="sourcePoint" />
+            <mxPoint x="1300" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-142" value="&lt;b style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;processElement&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1021" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-144" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#0000FF;jumpSize=4;entryX=-0.004;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="p2N06ffcsC0MJF7vxpci-137" target="p2N06ffcsC0MJF7vxpci-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391" y="1112" as="sourcePoint" />
+            <mxPoint x="441" y="1062" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="441" y="1112" />
+              <mxPoint x="391" y="1062" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-145" value="&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;如果subtree是&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, miui, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;普通元素 vnode&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-148" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#CC0000;jumpSize=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1110" as="sourcePoint" />
+            <mxPoint x="712" y="823" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2N06ffcsC0MJF7vxpci-149" value="&lt;b style=&quot;color: rgb(0, 0, 255); background-color: rgb(248, 249, 250);&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;如果subtree是组件&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, miui, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;vnode&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#CC0000;" vertex="1" connectable="0" parent="p2N06ffcsC0MJF7vxpci-148">
+          <mxGeometry x="0.3405" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="14" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
